@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    //this was added to fix "find" and "console" not found errors
+    "lib": [ 
+      "es6",
+      "dom"  
+    ]    
+    },
+    "types": [
+      "reflect-metadata"
+    ],
+    "exclude": [
+    "node_modules",
+    "typings/globals",
+    "typings/index.d.ts"
+  ]
+}
